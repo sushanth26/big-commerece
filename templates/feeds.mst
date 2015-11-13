@@ -1,0 +1,17 @@
+{{#feeds}}
+<div class="col-xs-10 col-sm-6 col-md-3">
+  <div class="panel panel-default">
+    <div class="panel-thumbnail img-overlay">
+      <img src="{{cover.img}}"class="img-responsive">
+      <p class="post-content">Top 10 Australian Beaches</p>
+    </div>
+    <div class="panel-body caption">
+      <p>Some kind of descripion, some kind of description</p>
+    </div>
+    <div class="panel-footer">
+      <a href="#">No</a>
+      <a class="a-primary" href="#">Yes</a>
+    </div>
+  </div>
+</div>
+{{/feeds}}

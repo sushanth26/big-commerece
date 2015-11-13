@@ -1,0 +1,15 @@
+{{#books}}
+<div class="col-xs-10 col-sm-6 col-md-4">
+  <div class="panel panel-default">
+    <img src="{{cover.img}}" class="img-responsive img-float-left">
+    <div class="panel-body caption no-bottom-padding">
+      <h3>{{title}}</h3>
+      <p>by {{author.firstName}} {{author.lastName}}</p>
+    </div>
+    <div class="panel-footer">
+      <a href="/{{id}}/freeSample">Free sample</a>
+      <a class="a-primary" href="/{{id}}/review">Review</a>
+    </div>
+  </div>
+</div>
+{{/books}}

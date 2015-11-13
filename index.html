@@ -1,0 +1,83 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-bottom: 20px;
+            }
+        </style>
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+        <![endif]-->
+    </head>
+    <body>
+      <div id="main">
+        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container branding-header">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">My books</a>
+            </div>
+          </div>
+          <div class="container">
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                  <li><a href="#">El Pooch</a></li>
+                  <li><a href="#">The Flight</a></li>
+                  <li><a href="#">Top 10 Australian Beaches</a></li>
+              </ul>
+            </div><!--/.navbar-collapse -->
+          </div>
+        </nav>
+
+        <div class="container">
+          <div class="container">
+            <div id="cards" class="row">
+            </div><!--/row-->
+          </div><!--/container -->
+          <hr>
+          <footer>
+          </footer>
+        </div> <!-- /container -->
+      </div>
+
+      <div id="newBook" class="container hidden">
+        <h2>Book details</h2>
+        <form role="form">
+          <div class="form-group">
+            <label for="name">Book Name:</label>
+            <input type="text" class="form-control" name="name" placeholder="Ex: The Alchemist" required>
+          </div>
+          <div class="form-group">
+            <label for="author">Author</label>
+            <input type="text" class="form-control" name="author" placeholder="Paulo Chelho" required>
+          </div>
+          <button id="addNewBook" type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+
+
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
+      <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
+      <script src="js/vendor/bootstrap.min.js"></script>
+      <script src="js/vendor/mustache.js"></script>
+      <script src="js/main.js"></script>
+    </body>
+</html>

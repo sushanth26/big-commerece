@@ -1,0 +1,38 @@
+{
+  "showWelcomeMessage": true,
+  "books": [
+    {
+      "id": 1,
+      "title": "El Pooch",
+      "author": {
+        "firstName": "Alex",
+        "lastName": "Nelson"
+      },
+      "cover": {
+        "img": "http://placehold.it/100x165/2222CC/EEE"
+      }
+    },
+    {
+      "id": 2,
+      "title": "The Flight",
+      "author": {
+        "firstName": "Scott",
+        "lastName": "Masterson"
+      },
+      "cover": {
+        "img": "http://placehold.it/100x165/2222CC/EEE"
+      }
+    }
+  ],
+  "feeds": [
+    {
+      "id": 700,
+      "title": "Top 10 Australian Beaches",
+      "caption": "Number 10",
+      "description": "this is some short description",
+      "cover": {
+        "img": "http://placehold.it/560x300/2222CC/EEE"
+      }
+    }
+  ]
+}

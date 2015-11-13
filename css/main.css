@@ -1,0 +1,77 @@
+
+
+/* ==========================================================================
+   custom styles
+   ========================================================================== */
+
+/* Override bootstraps font to use Roboto */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto';
+}
+p, div {
+    font-family: 'Roboto';
+}
+
+/* bootstrap overrides */
+.navbar {
+    background: hotpink;
+    border: none;
+}
+
+.navbar-inverse .navbar-nav li a {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.panel a {
+    text-transform: uppercase;
+    padding-left: 20px;
+    color: black;
+}
+
+.panel-footer {
+    background: white;
+}
+
+/* utility css */
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.no-bottom-padding {
+    padding-bottom: 0 !important;
+}
+
+/* Regular */
+a.a-primary {
+    color: lightsalmon;
+}
+
+
+.post-content {
+    opacity: 0.5;
+    bottom: 10px;
+    left: 10px;
+    position: absolute;
+    color: white;
+}
+
+.img-overlay{
+    position:relative;
+
+}
+
+.img-float-left {
+    float: left;
+    padding-right: 20px;
+}
+
+
+
+
+
+
